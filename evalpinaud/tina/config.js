@@ -3,12 +3,12 @@ import page from "./collections/page";
 import post from "./collections/post";
 
 export const config = defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: "7cad5d10-4edc-4679-b2c2-6ebfea6c0118",
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH || // custom branch env override
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || // Vercel branch env
     process.env.HEAD, // Netlify branch env
-  token: process.env.TINA_TOKEN,
+  token: "b91fa588f74e04278c4a20cd6161808b3f756751",
   media: {
     // If you wanted cloudinary do this
     // loadCustomStore: async () => {
@@ -28,25 +28,25 @@ export const config = defineConfig({
   schema: {
     collections: [
       {
-        label: 'Blog Posts',
-        name: 'post',
-        path: 'content/posts',
+        label: "Blog Posts",
+        name: "post",
+        path: "content/posts",
         fields: [
           {
-            type: 'string',
-            label: 'Title',
-            name: 'title',
+            type: "string",
+            label: "Title",
+            name: "title",
           },
           {
-            type: 'string',
-            label: 'Post Body',
-            name: 'body',
+            type: "string",
+            label: "Post Body",
+            name: "body",
             isBody: true,
           },
         ],
-      },],
+      },
+    ],
   },
 });
 
 export default config;
-
