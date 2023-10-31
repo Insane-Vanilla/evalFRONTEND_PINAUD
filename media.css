@@ -71,11 +71,8 @@
     margin-left: 2%;
     margin-right: 2%;
   }
-  .prestations-mobile1,
   .prestations-mobile2 {
     margin-top: 2%;
-  }
-  .prestations-mobile2 {
     margin-bottom: 10%;
   }
   .title-mobile {
@@ -269,9 +266,11 @@
     font-size: 22px;
   }
   .main-nav a {
-    margin-left:10px;
+    margin-left:40px;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 25px;
+
   }
   .body1 {
     background-attachment: fixed;
