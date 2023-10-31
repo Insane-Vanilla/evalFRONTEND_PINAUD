@@ -1,0 +1,292 @@
+/* MOBILES */
+
+@media screen and (max-width: 426px) {
+  .fleche {
+    width: 40px;
+  }
+  .logo {
+    width: 230px;
+  }
+  .main-nav {
+    font-size: 15px;
+    flex-direction: column;
+    margin-top: 8%;
+  }
+  .name1 {
+    font-size: 30px;
+  }
+  .job1 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .body1 {
+    background-position-x: 25%;
+  }
+  .container1 {
+    margin-top: 70%;
+  }
+  .cat {
+    margin-left: 5%;
+  }
+  .title-cat {
+    font-size: 20px;
+  }
+  label {
+    font-size: 10px;
+  }
+  .galerie {
+    margin-left: 5%;
+  }
+  .gal-wed,
+  .gal-bab,
+  .gal-two,
+  .gal-fam,
+  .gal-chr,
+  .gal-preg {
+    width: 45%;
+  }
+  .rs {
+    margin-left: 60%;
+  }
+  .follow {
+    font-size: 15px;
+  }
+  .rs2 {
+    justify-content: flex-end;
+    margin-right: 20%;
+  }
+  .fb,
+  .ig {
+    width: 30px;
+  }
+  .credits {
+    font-size: 10px;
+  }
+  .prestations-laptop {
+    display: none;
+  }
+  .prestations-mobile1,
+  .prestations-mobile2 {
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .prestations-mobile1,
+  .prestations-mobile2 {
+    margin-top: 2%;
+  }
+  .prestations-mobile2 {
+    margin-bottom: 10%;
+  }
+  .title-mobile {
+    font-family: "Bona Nova", serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+  }
+  .price-mobile {
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px dotted white;
+    padding-top: 0px;
+  }
+  .description-mobile {
+    text-align: justify;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .small {
+    font-size: 8px;
+  }
+  .ligne-mobile {
+    width: 100%;
+  }
+  .photos-tarifs {
+    width: 48%;
+    margin-bottom: 0%;
+  }
+  .gal-tarifs {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+  }
+  .container3 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .bloc-contact {
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+  .gal-contact {
+    width: 60%;
+    margin-top: 26%;
+  }
+  .photos-contact {
+    margin-bottom: 10px;
+  }
+  .champ {
+    height: 25px;
+  }
+  textarea {
+    height: 180px;
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+/* TABLETTES */
+
+@media screen and (min-width: 768px) {
+  .name1 {
+    font-size: 35px;
+  }
+  .job1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .container1 {
+    margin-top: 32%;
+  }
+  .body1 {
+    background-attachment: fixed;
+  }
+  .fleche {
+    width: 40px;
+  }
+  .logo {
+    width: 300px;
+  }
+  .main-nav {
+    font-size: 15px;
+    margin-top: 10%;
+  }
+  .main-nav a {
+    padding-left: 30px;
+  }
+  .body2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .prestations-mobile1,
+  .prestations-mobile2 {
+    display: none;
+  }
+  .prestations-laptop {
+    margin: 5% 2% 0% 2%;
+  }
+  .title-laptop {
+    font-size: 15px;
+  }
+  .price-laptop {
+    font-size: 18px;
+  }
+  .description-laptop {
+    font-size: 15px;
+  }
+  .small {
+    font-size: 10px;
+  }
+  .gal-tarifs {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .photos-tarifs {
+    width: 24%;
+    margin-right: 2px;
+  }
+  .cat {
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 30%;
+  }
+  .title-cat {
+    font-size: 25px;
+  }
+  .galerie {
+    margin-left: 5%;
+  }
+  label {
+    font-size: 13px;
+  }
+  .container3 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .gal-contact {
+    width: 50%;
+    margin-top: 12%;
+  }
+  .bloc-contact {
+    margin-right: 2%;
+  }
+  .photos-contact {
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  textarea {
+    height: 307px;
+  }
+  button {
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+  }
+  .follow {
+    font-size: 15px;
+  }
+  .rs {
+    margin-left: 75%;
+  }
+  .credits {
+    font-size: 8px;
+  }
+}
+
+/* LAPTOPS*/
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin-left: 10%;
+  }
+  .logo {
+    width: 500px;
+  }
+  .main-nav {
+    margin-top: 13%;
+  }
+
+  .main-nav a {
+    margin-left: 50px;
+  }
+  .body1 {
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .body2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cat {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .table-mobile1,
+  .table-mobile2,
+  .title-mobile,
+  .price-mobile,
+  .description-mobile {
+    display: none;
+  }
+}
