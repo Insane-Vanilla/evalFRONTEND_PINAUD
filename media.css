@@ -228,6 +228,7 @@
   }
   .bloc-contact {
     margin-right: 2%;
+    margin-left: 5%;
   }
   .photos-contact {
     margin-bottom: 5px;
@@ -258,25 +259,42 @@
 
 @media screen and (min-width: 1024px) {
   header {
-    margin-left: 10%;
+    margin-left: 0%;
   }
   .logo {
     width: 500px;
   }
   .main-nav {
     margin-top: 13%;
+    font-size: 22px;
   }
-
   .main-nav a {
-    margin-left: 50px;
+    margin-left:10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .body1 {
     background-attachment: fixed;
     background-size: cover;
   }
+  .container1 {
+    margin-top: 25%;
+  }
+  .name1 {
+    font-size: 60px;
+  }
+  .job1 {
+    font-size: 50px;
+  }
   .body2 {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  label {
+    font-size: 20px;
+  }
+  .title-cat {
+    font-size: 35px;
   }
   .cat {
     margin-left: 10%;
@@ -288,5 +306,38 @@
   .price-mobile,
   .description-mobile {
     display: none;
+  }
+  .prestations-laptop {
+    margin: 5% 5% 5% 5%;
+  }
+  .title-laptop {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .price-laptop {
+    font-size: 25px;
+  }
+  .description-laptop {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .small {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  .gal-contact {
+    margin-top: 2%;
+    width: 40%;
+  }
+  .bloc-contact {
+    margin-left: 5%;
+  }
+  .credits {
+    font-size: 12px;
+  }
+  .follow {
+    font-size: 25px;
   }
 }

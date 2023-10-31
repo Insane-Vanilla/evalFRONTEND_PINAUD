@@ -21,7 +21,6 @@ a {
 
 h2 {
   font-family: "Smooch Sans", sans-serif;
-  font-size: 38px;
   color: white;
   letter-spacing: 1;
 }
@@ -62,9 +61,10 @@ header {
   text-decoration: none;
 }
 
-.active {
+.main-nav a .active {
   text-decoration: underline;
-  color: white;
+  background-color: white;
+  color: #47555e;
 }
 
 .main-nav a:hover {
@@ -84,12 +84,10 @@ header {
   position: relative;
   text-align: center;
   z-index: 1;
-  margin-top: 20%;
 }
 
 .name1 {
   font-family: "Bona Nova", serif;
-  font-size: 60px;
   color: #47555e;
   margin-bottom: -10px;
 }
@@ -98,7 +96,6 @@ header {
   margin-top: -15px;
   font-family: "Smooch Sans", sans-serif;
   color: #47555e;
-  font-size: 50px;
 }
 
 hr {
@@ -117,7 +114,6 @@ hr {
 .title-cat {
   font-family: "Smooch Sans", sans-serif;
   color: white;
-  font-size: 35px;
   font-weight: bold;
 }
 
@@ -125,7 +121,6 @@ label {
   font-family: "Bona Nova", serif;
   color: white;
   line-height: 1.5;
-  font-size: 20px;
 }
 
 .galerie {
@@ -145,7 +140,6 @@ label {
 /* TARIFS ET PRESTATIONS */
 
 .prestations-laptop {
-  margin: 5% 12% 5% 12%;
   color: white;
 }
 
@@ -158,14 +152,11 @@ td {
 .title-laptop {
   font-family: "Bona Nova", serif;
   text-align: center;
-  font-size: 20px;
-  font-weight: 600;
 }
 
 .price-laptop {
   font-family: "Smooch Sans", sans-serif;
   font-weight: bold;
-  font-size: 25px;
   text-align: center;
   border-bottom: 1px solid white;
   padding-top: 0px;
@@ -173,12 +164,6 @@ td {
 
 .description-laptop {
   text-align: justify;
-  font-size: 18px;
-  padding: 18px;
-}
-
-.small {
-  font-size: 15px;
 }
 
 .gal-tarifs {
@@ -205,8 +190,6 @@ td {
 .gal-contact {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin-top: 5%;
   margin-bottom: 3%;
 }
 
@@ -220,7 +203,6 @@ td {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-left: 5%;
   margin-right: 10%;
 }
 
@@ -264,7 +246,6 @@ button {
 .follow {
   font-family: "Smooch Sans", sans-serif;
   color: white;
-  font-size: 25px;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -284,6 +265,5 @@ button {
 .credits {
   font-family: "Bona Nova", serif;
   color: white;
-  font-size: 12px;
   text-align: center;
 }
